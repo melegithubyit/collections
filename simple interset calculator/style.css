@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    font-family: arial;
+    color: white
+}
+
+h1 {
+    color: grey;
+    font-family: verdana
+}
+
+/* the maindiv is the main section of the calculator we are dealing
+with. the central part eith all the information.*/
+.maindiv {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    color: black;
+    border-radius: 25px;
+    align-items: center;
+}
+#para{
+    background-color: rgb(0,0,10);
+    color: blueviolet;
+}
