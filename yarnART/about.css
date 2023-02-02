@@ -1,0 +1,13 @@
+body{
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(./photos/back.jpg);
+}
+.main_paragraph{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.main_paragraph p,h2,.section-header p{
+    color: #fff;
+}

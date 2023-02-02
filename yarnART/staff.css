@@ -1,0 +1,451 @@
+
+body {
+    background: f1fbff !important;
+}
+
+.section-padding {
+    padding: 100px 0 !important;
+}
+
+.carousel-item {
+    height: 100vh !important;
+    min-height: 300PX !important;
+}
+
+.carousel-caption {
+    bottom: 220px !important;
+    z-index: 2 !important;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 40px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-top: 25px !important;
+}
+
+.carousel-caption p {
+    width: 60% !important;
+    margin: auto !important;
+    font-size: 18px !important;
+    line-height: 1.9 !important;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(14, 13, 13);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: black;
+
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.services .card-body i {
+    font-size: 50px !important;
+}
+
+.team .card-body i {
+    font-size: 20px !important;
+    font-weight: 1500 !important;
+}
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15) !important;
+
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15) !important;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .img-area img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12;
+
+    }
+
+    .about-text {
+        padding-top: 50px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* new Css */
+.EMAIL--LOOKUP {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#email-lookup {
+    width: 100%;
+    margin-bottom: 200px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#resources {
+    width: 50%;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+
+#resourceFlex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+    justify-content: space-around;
+}
+
+#resourceFlex img {
+    width: 600px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#links-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.more--items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.grad {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 20px 100px 20px;
+}
+
+.cust {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(255, 251, 0, 0.212);
+}
+
+.cust2 {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(51, 255, 0, 0.212);
+    width: 400px;
+}
+
+/* faculity */
+
+.scrollable {
+    text-align: left;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 500px;
+    font-size: 22px;
+}
+
+.scrollable2 {
+    text-align: left;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    font-size: 22px;
+}
+
+.grad1 {
+    text-align: left;
+    font-size: 25px;
+    margin: 0px 170px 100px 170px;
+}
+
+/* calander */
+
+:root {
+    --bg-color-a: #3b39af;
+    /* page header + form label */
+    --bg-color-b: #404040;
+    /* calendar header */
+    --bg-color-c: #d73a3a;
+    /* buttons */
+}
+
+.hide {
+    display: none !important;
+}
+
+/* (B) PERIOD SELECTOR */
+#calPeriod {
+    padding: 15px;
+    background: var(--bg-color-a);
+}
+
+#calPeriod input,
+#calPeriod select {
+    font-size: 24px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background: 0;
+    cursor: pointer;
+}
+
+#calPeriod option {
+    color: #000;
+}
+
+#calYear {
+    width: 100px;
+    margin-left: 10px;
+}
+
+/* (C) CALENDAR */
+/* (C1) SHARED */
+.calHead,
+.calRow {
+    display: flex;
+}
+
+.calCell {
+    width: 14%;
+    height: 100%;
+}
+
+.calCell:hover {
+    background-color: rgba(95, 158, 160, 0.459);
+}
+
+
+/* (C2) HEADER - DAY NAMES */
+.calHead .calCell {
+    color: rgb(255, 255, 255);
+    background: var(--bg-color-b);
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* (C3) BODY - INDIVIDUAL DAYS */
+.calBlank {
+    background: rgba(226, 115, 115, 0.322);
+}
+
+.calToday {
+    background: #36df0c60;
+}
+
+.calToday .cellDate {
+    color: #1f1e1e;
+}
+
+.calBody .calCell {
+    border: 1px solid #8a8a8a41;
+    min-height: 80px;
+}
+
+.cellDate,
+.evt {
+    padding: 5px;
+}
+
+.cellDate {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0c0c0cd0;
+}
+
+.calCell :hover {
+    cursor: pointer;
+}
+
+.evt {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* (D) EVENT FORM */
+#calForm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#calForm:is([open]) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#calForm form {
+    position: relative;
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#evtClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: #b12020;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#calForm h2 {
+    margin: 0 0 15px 0;
+}
+
+#calForm label,
+#calForm input[type=text],
+#calForm textarea {
+    width: 100%;
+}
+
+#calForm label {
+    color: #a1a1a1;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#calForm input[type=text],
+#calForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    background: #f5f5f5;
+}
+
+#calForm textarea {
+    height: 100px;
+    resize: none;
+}
+
+#calForm input[type=button],
+#calForm input[type=submit] {
+    border: 0;
+    padding: 10px;
+    margin: 10px 2px 0 0;
+    color: #fff;
+    background: var(--bg-color-c);
+    cursor: pointer;
+}
+
+#hero {
+    width: 100%;
+    height: 62vh;
+    background-image: url(./photos/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding-left: 100px;
+    padding-top: 40px;
+    background-attachment: fixed;
+}
+
+#hero1 {
+    width: 100%;
+    height: 60vh;
+    background-image: url(./photos/Will\ Self_\ How\ Should\ We\ Read_.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding-left: 100px;
+    padding-top: 40px;
+    background-attachment: fixed;
+}

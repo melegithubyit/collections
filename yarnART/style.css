@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+}
+
+.col-2
+{background-color:rgb(65, 57, 57);
+ height: 100vh;
+ text-align: center;
+ align-items: center;
+
+}
+
+.side-link{margin: 20px 0;}
